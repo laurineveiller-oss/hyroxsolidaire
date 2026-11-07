@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dons - HYROX Solidaire</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+        header { background-color: #005b96; color: white; padding: 1.5rem 0; text-align: center; }
+        header h1 { margin: 0; font-size: 2rem; }
+        nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 1rem; background-color: #03396c; padding: 0.8rem; }
+        nav a { color: white; text-decoration: none; font-weight: 600; padding: 0.5rem 1rem; border-radius: 4px; transition: background-color 0.3s; }
+        nav a:hover, nav a.active { background-color: #005b96; }
+        main { max-width: 900px; margin: 2rem auto; padding: 2rem; background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h2 { color: #03396c; border-bottom: 2px solid #b3cde0; padding-bottom: 0.5rem; }
+        .presentation-card { margin-bottom: 2rem; line-height: 1.6; }
+        .form-group { margin-bottom: 1.2rem; }
+        .form-group input { width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        .btn { display: inline-block; background-color: #03396c; color: white; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 4px; border: none; cursor: pointer; font-size: 1rem; font-weight: bold; }
+        .btn:hover { background-color: #005b96; }
+        footer { text-align: center; padding: 1rem; font-size: 0.9rem; color: #666; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Soutenir l'Association</h1>
+    </header>
+    <nav>
+        <a href="index.html">Présentation</a>
+        <a href="evenement.html">L'Événement</a>
+        <a href="programme.html">Programme</a>
+        <a href="inscription.html">Inscription</a>
+        <a href="blog.html">Blog</a>
+        <a href="don.html" class="active">Faire un don</a>
+    </nav>
+    <main>
+        <h2>Faites la différence dès aujourd'hui</h2>
+        <p>Même si vous ne participez pas à la course, vous pouvez soutenir notre initiative. 100% des fonds récoltés sur cette page seront reversés à la fondation Movember pour financer des projets de recherche et de soutien à la santé masculine.</p>
+        
+        <div class="presentation-card" style="text-align: center; padding: 2rem; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #eee;">
+            <h3>Montant libre</h3>
+            <p>Chaque euro compte pour faire avancer la recherche.</p>
+            <form action="#" method="POST" style="max-width: 300px; margin: 0 auto;">
+                <div class="form-group">
+                    <input type="number" placeholder="Montant en euros (€)" min="1" required>
+                </div>
+                <button type="submit" class="btn" style="width: 100%;">Faire un don sécurisé</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy; 2026 - Laurine Veiller | Université Paris-Nanterre
+    </footer>
+</body>
+</html>
